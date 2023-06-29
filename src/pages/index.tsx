@@ -45,7 +45,7 @@ const IndexPage: React.FC<PageProps> = () => {
   };
 
   return (
-    <main style={pageStyles}>
+    <main style={pageStyles} className="bg-blue-800">
       <button onClick={onClick}>Trigger Rebuild</button>
       <Feedback status={statusCode} />
     </main>
